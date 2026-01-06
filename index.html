@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>The Deals Hub | Cute & Budget Finds</title>
+
+<style>
+body{
+margin:0;
+font-family:Poppins, Arial, sans-serif;
+background:#fff7f3;
+color:#333;
+}
+
+/* Header */
+.header{
+background:linear-gradient(180deg,#ffd6e8,#ffffff);
+text-align:center;
+padding:25px 10px;
+}
+.header h1{
+margin:0;
+font-size:34px;
+color:#e91e63;
+}
+.header p{
+margin-top:6px;
+font-size:14px;
+color:#777;
+}
+
+/* Insta bar */
+.insta-bar{
+background:#ffffff;
+text-align:center;
+padding:10px;
+font-size:14px;
+}
+.insta-bar a{
+color:#e91e63;
+text-decoration:none;
+font-weight:bold;
+}
+
+/* Categories */
+.categories{
+display:flex;
+flex-wrap:wrap;
+gap:14px;
+justify-content:center;
+padding:15px;
+}
+.cat{
+text-align:center;
+font-size:13px;
+}
+.cat img{
+height:80px;
+width:110px;
+border-radius:12px;
+}
+
+/* Section title */
+.section-title{
+font-size:22px;
+margin:15px;
+color:#b23a6f;
+}
+
+/* Products */
+.products{
+display:flex;
+flex-wrap:wrap;
+gap:16px;
+justify-content:center;
+padding:10px;
+}
+.card{
+background:#ffffff;
+width:260px;
+border-radius:18px;
+box-shadow:0 10px 22px rgba(0,0,0,0.08);
+padding:12px;
+text-align:center;
+}
+.card img{
+width:100%;
+height:260px;
+border-radius:14px;
+}
+.tag{
+display:inline-block;
+background:#ffe1ec;
+color:#d81b60;
+padding:4px 12px;
+border-radius:20px;
+font-size:12px;
+margin-bottom:6px;
+}
+.card h3{
+font-size:16px;
+margin:8px 0 4px;
+}
+.price{
+font-size:18px;
+font-weight:bold;
+color:#e91e63;
+}
+del{
+color:#999;
+font-size:13px;
+}
+.buy{
+margin-top:10px;
+display:block;
+padding:12px;
+border-radius:30px;
+background:#e91e63;
+color:#fff;
+text-decoration:none;
+font-weight:500;
+}
+
+/* Footer */
+footer{
+margin-top:30px;
+background:#111;
+color:#fff;
+text-align:center;
+padding:12px;
+font-size:13px;
+}
+
+/* 🔥 MOBILE FIX (NO DESIGN CHANGE) */
+@media(max-width:768px){
+
+/* Categories same row with scroll */
+.categories{
+flex-wrap:nowrap;
+overflow-x:auto;
+justify-content:flex-start;
+}
+.cat{
+min-width:90px;
+}
+
+/* Products 2 per row */
+.products{
+display:grid;
+grid-template-columns:repeat(2,1fr);
+gap:12px;
+}
+.card{
+width:100%;
+}
+.card img{
+height:auto;
+}
+
+.header h1{
+font-size:28px;
+}
+}
+</style>
+</head>
+
+<body>
+
+<div class="header">
+<h1>✨ The Deals Club</h1>
+<p>cute • budget • trending finds</p>
+</div>
+
+<div class="insta-bar">
+Follow us on Instagram 👉 
+<a href="https://instagram.com/the_deals_hub" target="_blank">@the_deals_club</a>
+</div>
+
+<div class="categories">
+<div class="cat"><img src="https://m.media-amazon.com/images/I/51ko9Hykw1L.jpg"><br>Bags</div>
+<div class="cat"><img src="https://m.media-amazon.com/images/I/51ko9Hykw1L.jpg"><br>Beauty</div>
+<div class="cat"><img src="https://m.media-amazon.com/images/I/51ko9Hykw1L.jpg"><br>Watches</div>
+<div class="cat"><img src="https://m.media-amazon.com/images/I/51ko9Hykw1L.jpg"><br>Earbuds</div>
+<div class="cat"><img src="https://m.media-amazon.com/images/I/51ko9Hykw1L.jpg"><br>Watches</div>
+<div class="cat"><img src="https://m.media-amazon.com/images/I/51ko9Hykw1L.jpg"><br>Earbuds</div>
+<div class="cat"><img src="https://m.media-amazon.com/images/I/51ko9Hykw1L.jpg"><br>Watches</div>
+<div class="cat"><img src="https://m.media-amazon.com/images/I/51ko9Hykw1L.jpg"><br>Earbuds</div>
+<div class="cat"><img src="https://m.media-amazon.com/images/I/51ko9Hykw1L.jpg"><br>Watches</div>
+<div class="cat"><img src="https://m.media-amazon.com/images/I/51ko9Hykw1L.jpg"><br>Earbuds</div>
+<div class="cat"><img src="https://m.media-amazon.com/images/I/51ko9Hykw1L.jpg"><br>Watches</div>
+<div class="cat"><img src="https://m.media-amazon.com/images/I/51ko9Hykw1L.jpg"><br>Home</div>
+</div>
+
+<h2 class="section-title">🔥 Trending Deals</h2>
+
+<div class="products">
+
+<div class="card">
+<span class="tag">💖 Cute</span>
+<img src="https://m.media-amazon.com/images/I/51ko9Hykw1L.jpg">
+<h3>Mini Sling Bag</h3>
+<div class="price">₹499 <del>₹999</del></div>
+<a class="buy" href="#">Buy Now</a>
+</div>
+
+<div class="card">
+<span class="tag">✨ Trending</span>
+<img src="https://m.media-amazon.com/images/I/51ko9Hykw1L.jpg">
+<h3>Stylish Smart Watch</h3>
+<div class="price">₹1,299 <del>₹2,999</del></div>
+<a class="buy" href="#">Buy Now</a>
+</div>
+
+<div class="card">
+<span class="tag">🔥 Viral</span>
+<img src="https://m.media-amazon.com/images/I/51ko9Hykw1L.jpg">
+<h3>Wireless Earbuds</h3>
+<div class="price">₹999 <del>₹2,499</del></div>
+<a class="buy" href="#">Buy Now</a>
+</div>
+
+<div class="card">
+<span class="tag">💄 Beauty</span>
+<img src="https://m.media-amazon.com/images/I/51ko9Hykw1L.jpg">
+<h3>Makeup Combo Set</h3>
+<div class="price">₹599 <del>₹1,299</del></div>
+<a class="buy" href="#">Buy Now</a>
+</div>
+
+<div class="card">
+<span class="tag">🏠 Home</span>
+<img src="https://m.media-amazon.com/images/I/51ko9Hykw1L.jpg">
+<h3>Decor LED Lights</h3>
+<div class="price">₹399 <del>₹899</del></div>
+<a class="buy" href="#">Buy Now</a>
+</div>
+
+<div class="card">
+<span class="tag">💗 Cute</span>
+<img src="https://m.media-amazon.com/images/I/51ko9Hykw1L.jpg">
+<h3>Hand Carry Purse</h3>
+<div class="price">₹699 <del>₹1,499</del></div>
+<a class="buy" href="#">Buy Now</a>
+</div>
+
+<div class="card">
+<span class="tag">✨ Trending</span>
+<img src="https://m.media-amazon.com/images/I/51ko9Hykw1L.jpg">
+<h3>Digital Ladies Watch</h3>
+<div class="price">₹899 <del>₹1,999</del></div>
+<a class="buy" href="#">Buy Now</a>
+</div>
+
+<div class="card">
+<span class="tag">🔥 Viral</span>
+<img src="https://m.media-amazon.com/images/I/51ko9Hykw1L.jpg">
+<h3>Skincare Combo</h3>
+<div class="price">₹549 <del>₹1,099</del></div>
+<a class="buy" href="#">Buy Now</a>
+</div>
+
+<div class="card">
+<span class="tag">🏠 Home</span>
+<img src="https://m.media-amazon.com/images/I/51ko9Hykw1L.jpg">
+<h3>Wall Hanging Decor</h3>
+<div class="price">₹449 <del>₹999</del></div>
+<a class="buy" href="#">Buy Now</a>
+</div>
+
+<div class="card">
+<span class="tag">🏠 Home</span>
+<img src="https://m.media-amazon.com/images/I/51ko9Hykw1L.jpg">
+<h3>Wall Hanging Decor</h3>
+<div class="price">₹449 <del>₹999</del></div>
+<a class="buy" href="#">Buy Now</a>
+</div>
+
+
+</div>
+
+<footer>
+© 2025 The Deals Hub • Amazon & Meesho Affiliate
+</footer>
+
+</body>
+</html>
